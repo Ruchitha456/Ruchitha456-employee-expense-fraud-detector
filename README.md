@@ -1,11 +1,13 @@
-#  Employee Expense Fraud Detector  
-**End-to-end anomaly detection system using Isolation Forest + SHAP explainability**
+# Employee Expense Fraud Detector  
 
-This project identifies anomalous (fraud-like) employee expense transactions using:  
-- **Isolation Forest (IF)**  
-- **SHAP Explainability (Global + Local)**  
-- **Interactive UI using Streamlit**  
-- **Fully ready for deployment (GitHub + Streamlit Cloud)**
+**End-to-end anomaly detection system to identify fraudulent employee expense transactions using Isolation Forest and SHAP explainability.**
+
+This project helps organizations detect anomalous expense claims and understand the key factors behind anomalies through interactive visualizations:
+
+- **Isolation Forest (IF):** Unsupervised model to detect anomalous transactions  
+- **SHAP Explainability (Global + Local):** Understand feature contributions for anomalies  
+- **Interactive UI using Streamlit:** Multi-page interface for predictions and visual explanations  
+- **Deployment-ready:** Hosted on GitHub and Streamlit Cloud for live demo
 
 ---
 
@@ -130,22 +132,24 @@ streamlit run streamlit_app/app.py
 
 ##  Project Status
 
--  Data Preprocessing  
+- Data Preprocessing  
 - Isolation Forest Model Training  
 - SHAP Global & Local Explanations  
 - Streamlit Multi-Page UI  
-
-⏳ Pending / Optional:  
-- More datasets for training  
-- Docker deployment (if needed)
+- Deployed on Streamlit Cloud
 
 ---
 
-##  Notes for Recruiters
+## Business Impact & Skills Demonstrated
 
-- Fully functional end-to-end ML project  
-- Clear visuals & explainability via SHAP  
-- Multi-page Streamlit interface showcases data + predictions + explanations  
-- Ready for live demo via Streamlit Cloud
+- Detected anomalies in employee expenses, reducing potential financial fraud risk  
+- Applied Isolation Forest for unsupervised anomaly detection  
+- Used SHAP for global and local explainability  
+- Built a clean, interactive Streamlit UI for end-to-end demonstration  
+- Hands-on experience with Python ML stack and deployment on Streamlit Cloud
+
+
+
+
 
 
