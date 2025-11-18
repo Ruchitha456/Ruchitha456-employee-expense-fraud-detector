@@ -9,8 +9,8 @@ st.title("Model Overview")
 
 # Paths
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
-DATA_PATH = os.path.join(ROOT, "data", "processed.csv")
-MODEL_PATH = os.path.join(ROOT, "data", "isolation_forest_model.pkl")
+DATA_PATH = os.path.join(ROOT,"Data" ,"demo", "processed_demo.csv")
+MODEL_PATH = os.path.join(ROOT, "Data","demo", "isolation_forest_demo.pkl")
 
 # Dataset
 if os.path.exists(DATA_PATH):

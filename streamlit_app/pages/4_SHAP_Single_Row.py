@@ -10,8 +10,8 @@ st.set_page_config(page_title="SHAP Single Row", layout="wide")
 st.title("SHAP: Explain Single Transaction")
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
-PROCESSED_PATH = os.path.join(ROOT, "data", "processed.csv")
-MODEL_PATH = os.path.join(ROOT, "data", "isolation_forest_model.pkl")
+PROCESSED_PATH = os.path.join(ROOT, "Data","demo", "processed_demo.csv")
+MODEL_PATH = os.path.join(ROOT, "Data","demo", "isolation_forest_demo.pkl")
 RESULTS_DIR = os.path.join(ROOT, "results")
 FORCE_PNG = os.path.join(RESULTS_DIR, "shap_force_example.png")
 

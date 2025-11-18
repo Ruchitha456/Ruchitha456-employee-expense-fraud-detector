@@ -10,7 +10,6 @@ Data/*.pkl
 !Data/demo/*.pkl
 
 # SHAP results (keep demo images)
-results/*.csv
 !results/demo/*.png
 
 # Cache and OS files
