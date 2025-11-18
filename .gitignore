@@ -1,0 +1,19 @@
+# Ignore virtual environment
+venv/
+
+# Ignore full-size data/models
+Data/*.csv
+Data/*.pkl
+
+# Allow demo files
+!Data/demo/*.csv
+!Data/demo/*.pkl
+
+# SHAP results (keep demo images)
+results/*.csv
+!results/demo/*.png
+
+# Cache and OS files
+__pycache__/
+.DS_Store
+Thumbs.db
